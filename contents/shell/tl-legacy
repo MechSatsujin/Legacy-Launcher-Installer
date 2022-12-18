@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ "$(id -u)" -eq 0 ]
+then
+    if [ -n "$SUDO_USER" ]
+    then
+        printf "Do not run this as sudo/root. Only run this on a normal user." >&2
+        exit 1
+    fi
+fi
+java -jar /usr/share/tl/TL_legacy.jar

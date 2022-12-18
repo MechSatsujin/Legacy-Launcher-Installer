@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name=TL
+Comment=Stable, fast and simple
+Comment[am]=የተረጋጋ, ፈጣን እና ቀላል
+Comment[ar]=مستقر وسريع وبسيط
+Comment[be]=Стабільны, хуткі і просты
+Comment[bg]=Стабилен, бърз и прост
+Comment[ca]=Estable, ràpid i senzill
+Comment[ca@valencia]=Estable, ràpid i senzill
+Comment[cs]=Stabile, veloce è simplice
+Comment[da]=Stabil, hurtig og enkel
+Comment[de]=Stabiel, snel en eenvoudig
+Comment[en_GB]=Stable, fast and simple
+Comment[es]=Estable, rápido y sencillo.
+Comment[zh_CN]=稳定、快速、简单
+Comment[zh_HK]=穩定、快速、簡單
+Comment[zh_TW]=穩定、快速、簡單
+Comment[ja]=安定、高速、シンプル
+Comment[ko]=안정적이고 빠르고 간단합니다.
+Comment[ru]=Стабильный, быстрый и простой
+# These are translated descriptions above this line and its not full and organized.
+Exec=java -jar /usr/share/tl/TL_legacy.jar
+StartupNotify=false
+Type=Application
+Categories=Game;
+Keywords=minecraft;mc;tl;tlauncher;game
+Icon=/usr/share/tl/icon/minecraft.png

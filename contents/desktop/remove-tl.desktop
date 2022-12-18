@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Remove TL
+Type=Application
+Terminal=true
+Exec=sudo bash /usr/share/tl/remove-tl.sh
+Icon=package-remove
+Categories=Game;
