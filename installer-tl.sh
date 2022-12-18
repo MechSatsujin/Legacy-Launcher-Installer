@@ -59,7 +59,7 @@ sudo mkdir /usr/share/tl/icon
 echo 'now copying the icon'
 sudo cp minecraft.png /usr/share/tl/icon
 sleep 0.75
-cd $HOME/TL-Legacy-Installer/shell
+cd $HOME/TL-Legacy-Installer/contents/shell
 echo 'copying the shell files.'
 sudo cp remove-tl /usr/bin
 sudo cp remove-tl.sh /usr/share/tl
