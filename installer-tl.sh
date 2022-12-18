@@ -28,14 +28,14 @@ read -p "Would you like to perform a clean installation? " -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo 'removing the TL folder in /usr/share'
-    echo -r /home/$USER/.minecraft
+    rm -r /home/$USER/.minecraft
     echo 'Finished performing clean installation.'
 fi
 echo 'Making the TL directory on /usr/share'
 sudo mkdir /usr/share/tl
 sleep 0.75
 echo 'Going to copy the contents.'
-cd contents/desktop
+cd $HOME/TL-Legacy-Installer/contents/desktop/
 sudo cp tl.desktop /usr/share/applications
 sudo cp remove-tl.desktop /usr/share/applications
 cd ..
@@ -47,13 +47,13 @@ sudo chmod +x /usr/share/applications/remove-tl.desktop
 echo 'Desktop Files are now Executable'
 sleep 0.5
 echo 'copying the main file'
-cd main
+cd $HOME/TL-Legacy-Installer/contents/main/
 sudo cp TL_legacy.jar /usr/share/tl
 echo 'finished copying the main file'
 sleep 0.75
 cd ..
 echo 'copying other contents.'
-cd other
+cd $HOME/TL-Legacy-Installer/contents/other/
 echo 'making directory for the icon.'
 sudo mkdir /usr/share/tl/icon
 echo 'now copying the icon'
