@@ -6,7 +6,7 @@ TL Installer is an that one simple shell script file that installs TL:Legacy aut
 ``git clone https://github.com/RuahWonders/TL-Legacy-Installer-Beta.git``
 2. Type ``cd TL-Legacy-Installer-Beta``
 3. Run ``bash ./installer-tl.sh``
--Running as Sudo is restricted on this shell script.
+- Running as Sudo is restricted on this shell script.
 4. And follow the instructions from the installer.
 
 # How do I uninstall it?
