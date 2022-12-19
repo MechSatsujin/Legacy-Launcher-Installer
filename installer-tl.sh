@@ -108,4 +108,4 @@ echo
 echo 'Installation finished succesffully. You can open the application from the menu or run "tl-legacy" on the terminal.'
 echo
 echo
-echo 'If you want to remove TL:Legacy, run "Remove TL" on the applications menu or run "remove-tl" on the terminal.'
+echo 'If you want to remove TL:Legacy, run "Remove TL" on the applications menu or run "bash remove-tl" on the terminal.'
