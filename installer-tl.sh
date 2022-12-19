@@ -1,13 +1,13 @@
 #!/bin/bash
 # Welcome To the contents of the sh installer. You can customize your installation here.
 # This installation is only for Debian-based distributions.
-# Run bash ./installer.sh on terminal in order to install, no sudo is required to run except apt installations, copying files and permissions on system directories.
+# Run bash ./installer.sh on terminal in order to install, do not run this as sudo.
 
 if [ "$(id -u)" -eq 0 ]
 then
     if [ -n "$SUDO_USER" ]
     then
-        printf "This installer has to run as a normal user." >&2
+        printf "Currently, this installer is only allowed to run on a normal user. Will be fixing this problem soon." >&2
         exit 1
     fi
 fi
