@@ -9,8 +9,8 @@ then
     sleep 2
     echo 'removing directories and shell files.'
     rm /home/$USER/.tlauncher
-    sudo rm /usr/bin/remove-tl
-    sudo rm /usr/bin/tl-legacy
+    sudo rm /bin/remove-tl
+    sudo rm /bin/tl-legacy
     sudo rm -r /usr/share/tl
     echo 'removed.'
 fi

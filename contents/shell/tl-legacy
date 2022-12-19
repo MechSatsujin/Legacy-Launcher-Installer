@@ -6,5 +6,10 @@ then
         printf "Do not run this as sudo/root. Only run this on a normal user." >&2
         exit 1
     fi
+     if [ -n "$ROOT_USER" ]
+    then
+        printf "Do not run this as sudo/root. Only run this as an normal user." >&2
+        exit 1
+    fi
 fi
 java -jar /usr/share/tl/TL_legacy.jar
