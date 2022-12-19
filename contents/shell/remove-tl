@@ -8,7 +8,7 @@ then
     sudo rm /usr/share/applications/remove-tl.desktop
     sleep 2
     echo 'removing directories and shell files.'
-    rm /home/$USER/.tlauncher
+    rmdir /home/$USER/.tlauncher
     sudo rm -r /usr/share/tl
     sudo rm /bin/tl-legacy
     sudo rm /bin/remove-tl
