@@ -1,4 +1,4 @@
-#!/bin
+#!/bin/sh
 if [ "$(id -u)" -eq 0 ]
 then
     if [ -n "$SUDO_USER" ]
