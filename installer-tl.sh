@@ -61,9 +61,9 @@ sudo cp minecraft.png /usr/share/tl/icon
 sleep 0.75
 cd $HOME/TL-Legacy-Installer/contents/shell
 echo 'copying the shell files.'
-sudo cp remove-tl /usr/bin
+sudo cp remove-tl /bin
 sudo cp remove-tl.sh /usr/share/tl
-sudo cp tl-legacy /usr/bin
+sudo cp tl-legacy /bin
 echo 'Finished copying contents.'
 sleep 2
 read -p "What Java JDK Version Package would you like to install? [1]default-jdk [2]openjdk-17 [3]openjdk-18 [4]openjdk-19 [5]openjdk-8 [Default:Don't Install]:" -n 1 -r
@@ -98,9 +98,7 @@ fi
 sleep 2
 echo
 echo
-echo 'TL: Legacy Installed Successfully! Clearing the installer folder.'
-cd
-rm /home/$USER/tl-installer -r
+echo 'TL: Legacy Installed Successfully!'
 sleep 5
 echo
 echo
