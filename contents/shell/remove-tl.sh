@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 read -p "Are you sure to remove TL:Legacy? " -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
