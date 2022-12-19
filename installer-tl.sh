@@ -24,7 +24,7 @@ sleep 2
 echo 'The Setup is about to start. Please wait.'
 sleep 5
 
-read -p "Would you like to perform a clean installation? " -n 1 -r
+read -p "Would you like to perform a clean installation? [Blank: No]" -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo 'removing the TL folder in /usr/share'
@@ -64,9 +64,12 @@ echo 'copying the shell files.'
 sudo cp remove-tl /bin
 sudo cp remove-tl.sh /usr/share/tl
 sudo cp tl-legacy /bin
+echo 'Making the shell script files executable.'
+sudo chmod +x /bin/remove-tl
+sudo chmod +x /bin/tl-legacy
 echo 'Finished copying contents.'
 sleep 2
-read -p "What Java JDK Version Package would you like to install? [1]default-jdk [2]openjdk-17 [3]openjdk-18 [4]openjdk-19 [5]openjdk-8 [Default:Don't Install]:" -n 1 -r
+read -p "What Java JDK Version Package would you like to install? [1]default-jdk [2]openjdk-17 [3]openjdk-18 [4]openjdk-19 [5]openjdk-8 [Blank:Don't Install]:" -n 1 -r
 
 if [[ $REPLY =~ ^[1]$ ]]
 then
