@@ -15,3 +15,6 @@ Its more easier to uninstall it through searching "Remove TL" in the Application
 # Is this from the official developers?
 No. I am not one of the developers or an affiliate of this launcher, I'm just a minecraft player. I made this for fun. They can inform me if they are appreciated my project and use it as a alternative.
 
+# **CREDITS**
+--------------
+- Credits to the rightful owners of TL: Legacy and the icon from the contents of this repository.
