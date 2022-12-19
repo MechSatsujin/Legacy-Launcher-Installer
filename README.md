@@ -18,3 +18,8 @@ No. I am not one of the developers or an affiliate of this launcher, I'm just a 
 # **CREDITS**
 --------------
 - Credits to the rightful owners of TL: Legacy and the icon from the contents of this repository.
+-------------
+- TL: Legacy Official Website: https://tlaun.ch
+- Creator of the Minecraft icon used on this Repo.:https://iconscout.com/contributors/jagathish/icons
+- Link for the Icon used: https://iconscout.com/icon/minecraft-2752120
+
