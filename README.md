@@ -1,3 +1,7 @@
+# Disclaimer
+- This Project may be become abandoned if the project haven't update for months
+- This Repository is not confirmed to be completed yet. Bugs may appear. 
+
 # About TL:Legacy Installer
 TL Installer is an that one simple shell script file that installs TL:Legacy automatically on your system. This is only for Debian-based Distributions like Ubuntu, Linux Mint, etc. This is only considered a alternative way of installing TL made by the community.
 
