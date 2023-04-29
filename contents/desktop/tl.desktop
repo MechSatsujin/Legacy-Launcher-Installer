@@ -24,4 +24,4 @@ StartupNotify=false
 Type=Application
 Categories=Game;
 Keywords=minecraft;mc;tl;tlauncher;game
-Icon=/usr/share/tl/icon/minecraft.png
+Icon=tlauncher
