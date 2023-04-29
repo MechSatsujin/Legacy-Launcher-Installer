@@ -54,10 +54,8 @@ sleep 0.75
 cd ..
 echo 'copying other contents.'
 cd $HOME/TL-Legacy-Installer/contents/other/
-echo 'making directory for the icon.'
-sudo mkdir /usr/share/tl/icon
-echo 'now copying the icon'
-sudo cp minecraft.png /usr/share/tl/icon
+echo 'Copying the Icon to /usr/share/pixmaps'
+sudo cp minecraft.png /usr/share/pixmaps
 sleep 0.75
 cd $HOME/TL-Legacy-Installer/contents/shell
 echo 'copying the shell files.'
