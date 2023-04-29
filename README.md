@@ -1,6 +1,9 @@
 # Disclaimer
 - This Project may be become abandoned if the project haven't update for months
 - This Repository is not confirmed to be completed yet and its still on development. Bugs may appear. 
+- For Ubuntu/Debian-Based Distros, .deb option is available on the official TL Legacy Website.
+- Other Distros like Fedora/RHEL could make this installer a option.
+- And Lastly, the development for this repo is no longer getting updates.
 
 # About TL:Legacy Installer
 TL Installer is an that one simple shell script file that installs TL:Legacy automatically on your system. This is only for Debian-based Distributions like Ubuntu, Linux Mint, etc. This is only considered a alternative way of installing TL made by the community.
@@ -28,5 +31,5 @@ No. I am not one of the developers or an affiliate of this launcher, I'm just a 
 -------------
 - TL: Legacy Official Website: https://tlaun.ch
 - Creator of the Minecraft icon used on this Repo.:https://iconscout.com/contributors/jagathish/icons
-- Link for the Icon used: https://iconscout.com/icon/minecraft-2752120
+
 
