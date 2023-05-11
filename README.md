@@ -2,7 +2,7 @@
 - This Project may be become abandoned if the project haven't update for months
 - This Repository is not confirmed to be completed yet and its still on development. Bugs may appear. 
 - For Ubuntu/Debian-Based Distros, .deb option is available on the official TL Legacy Website. It was used to have no option for .Deb files.
-- Other Distros like Fedora/RHEL could make this installer a option.
+- Other Distros like Fedora/RHEL could make this installer a option (not yet available!).
 - And Lastly, the development for this repo is no longer getting updates.
 
 # About TL:Legacy Installer
