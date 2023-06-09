@@ -4,14 +4,17 @@
 - For Ubuntu/Debian-Based Distros, .deb option is available on the official TL Legacy Website. It was used to have no option for .Deb files.
 - Other Distros like Fedora/RHEL could make this installer a option (not yet available!).
 - And Lastly, the development for this repo is no longer getting updates.
-
+- # Small Repo Update 06/09/23
+ - TL Legacy has been named into Legacy Launcher, so does this repository.
+ - Old Website Link directs to the new link: https://llaun.ch
+ - Still doing the temporary job
 # About TL:Legacy Installer
 TL Installer is an that one simple shell script file that installs TL:Legacy automatically on your system. This is only for RHEL/Fedora(.RPM Option not available on the official site yet.), Solus, Slackware, Gentoo, etc. This is only considered a alternative way of installing TL made by the community.
 
 # How to install TL using this installer?
 1. Clone this repository 
-``git clone https://github.com/RuahWonders/TL-Legacy-Installer.git``
-2. Type ``cd TL-Legacy-Installer-``
+``git clone https://github.com/RuahWonders/Legacy-Launcher-Installer.git``
+2. Type ``cd Legacy-Launcher-Installer-``
 3. Run ``bash ./installer-tl.sh``
 - Running as Sudo is not allowed on this shell script.
 4. And follow the instructions from the installer.
@@ -27,7 +30,6 @@ No. I am not one of the developers or an affiliate of this launcher, I'm just a 
 
 # **CREDITS**
 --------------
-- Credits to the rightful owners of TL: Legacy.
--------------
-- TL: Legacy Official Website: https://tlaun.ch
+- Credits to the rightful owners of Legacy Launcher (Formely TL: Legacy)
+-  Legacy Launcher Official Website: https://llaun.ch
 
