@@ -7,7 +7,7 @@
 - # Small Repo Update 06/09/23
  - TL Legacy has been named into Legacy Launcher, so does this repository.
  - Old Website Link directs to the new link: https://llaun.ch
- - Still doing the temporary job
+ - Still doing this repo not too much.
 # About TL:Legacy Installer
 TL Installer is an that one simple shell script file that installs TL:Legacy automatically on your system. This is only for RHEL/Fedora(.RPM Option not available on the official site yet.), Solus, Slackware, Gentoo, etc. This is only considered a alternative way of installing TL made by the community.
 
